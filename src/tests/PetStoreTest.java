@@ -44,7 +44,7 @@ public class PetStoreTest {
 	}
 
 	@Test
-	public void checkFishLinks() throws InterruptedException {
+	public void checkLinks() throws InterruptedException {
 
 		PetStoreMenuPage cf = new PetStoreMenuPage(driver, locators, waiter);
 		Assert.assertTrue(cf.checkLinksByCategoryName("FISH"));
