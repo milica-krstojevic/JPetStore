@@ -2,19 +2,30 @@ JpetStore
 Version: 1.0.0
 
 JpetStore is used for testing functionalities
+
 Target application URL is: https://petstore.octoperf.com/.
 
 Target browser: Chrome
+
 Browser version: Version 80.0.3987.149
 
-Run test suite: testng.xml Total tests run: 11
+
+Run test suite: testng.xml
+
+Total tests run: 11
+
 
 Used libraries:
 
 TestNG automation testing framework
+
 Selenium portable framework for testing web applications
+
 Apache POI library for manipulating various file formats
+
 JavaDoc is located in doc folder.
+
+
 
 The following website functionalities are tested:
 
