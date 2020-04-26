@@ -74,7 +74,7 @@ public class CartPage {
 		return sum;
 	}
 
-	public boolean isPriceIsEqual() {
+	public boolean verifyPriceCalculation() {
 		return this.getSumTotal() == this.getTotalItemsSum();
 	}
 

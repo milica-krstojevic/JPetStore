@@ -70,7 +70,7 @@ public class SignInPage {
 		return login;
 	}
 
-	public boolean isNotLoggedIn() {
+	public boolean isNotLoggedInNoPassword() {
 		boolean login = false;
 		WebElement e = this.driver.findElement(By.xpath(locators.getProperty("enter_u_and_p")));
 		if (e.isDisplayed()) {
@@ -79,7 +79,7 @@ public class SignInPage {
 		return login;
 	}
 
-	public boolean isNotLoggedIn2() {
+	public boolean isNotLoggedInWrongPassword() {
 		boolean login = false;
 		WebElement e = this.driver.findElement(By.xpath(locators.getProperty("message")));
 		if (e.isDisplayed()) {

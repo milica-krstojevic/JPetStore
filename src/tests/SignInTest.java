@@ -69,14 +69,14 @@ public class SignInTest {
 			user.login(username, "");
 
 			Thread.sleep(2000);
-			sa.assertTrue(user.isNotLoggedIn());
+			sa.assertTrue(user.isNotLoggedInNoPassword());
 
 			driver.navigate().to(this.locators.getProperty("sign_in_form"));
 
 			user.login(username, password + "1254");
 
 			Thread.sleep(2000);
-			sa.assertTrue(user.isNotLoggedIn2());
+			sa.assertTrue(user.isNotLoggedInWrongPassword());
 
 			sa.assertAll();
 		}

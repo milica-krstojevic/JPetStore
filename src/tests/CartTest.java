@@ -60,7 +60,7 @@ public class CartTest {
 	@Test(priority = 2)
 	public void sumEqual() {
 		CartPage cart = new CartPage(driver, locators, waiter);
-		Assert.assertTrue(cart.isPriceIsEqual());
+		Assert.assertTrue(cart.verifyPriceCalculation());
 	}
 
 	@Test(priority = 3)
