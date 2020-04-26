@@ -70,7 +70,7 @@ public class SignInPage {
 		return login;
 	}
 
-	public boolean isNotLoggedInNoPassword() {
+	public boolean isNotLoggedInWithoutPassword() {
 		boolean login = false;
 		WebElement e = this.driver.findElement(By.xpath(locators.getProperty("enter_u_and_p")));
 		if (e.isDisplayed()) {
